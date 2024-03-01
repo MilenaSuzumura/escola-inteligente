@@ -34,6 +34,6 @@ public class PessoaEstudante {
 
     int totalDias = calcularIdadeEmDias(anos, meses, dias);
 
-    System.out.println("A idade de" + nome + "em dias é" + totalDias);
+    System.out.println("A idade de " + nome + " em dias é " + totalDias + ".");
   }
 }
