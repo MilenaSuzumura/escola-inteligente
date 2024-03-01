@@ -8,12 +8,10 @@ public class PessoaEstudante {
    * Método calcularIdadeEmDias.
    */
   public static int calcularIdadeEmDias(int anos, int meses, int dias) {
-    int anosMeses = anos * 12;
-    int mesesTotal = anosMeses + meses;
-    int diasMeses = mesesTotal * 30;
-    int diasTotais = diasMeses + dias;
-    return diasTotais;
-  };
+    int diasMeses = meses * 30;
+    int diasAnos = anos * 365;
+    return diasMeses + dias + diasAnos;
+  }
 
   /**
    * Método coletarInformacoes.
@@ -37,5 +35,5 @@ public class PessoaEstudante {
     int totalDias = calcularIdadeEmDias(anos, meses, dias);
 
     System.out.println("A idade de" + nome + "em dias é" + totalDias);
-  };
+  }
 }
