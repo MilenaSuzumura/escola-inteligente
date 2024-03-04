@@ -4,18 +4,6 @@ Escola Inteligente é uma aplicação Java que interage através do terminal apr
 
 <strong>OBS:</strong> ESSA ATIVIDADE FOI DESENVOLVIDA NA TRYBE.
 
-<!--
-
-A funcionalidade de calcular a idade de uma pessoa estudante em dias para o departamento Pessoa Estudante.
-A funcionalidade de calcular a média das notas de uma pessoa estudante para o departamento Secretaria.
-A funcionalidade de gerar um relatório de controle de acesso das pessoas estudantes na escola para o departamento Portaria.
-
--->
-
-<!--
-
-
-
 <br>
 
 ## 📑 Informações básicas e Orientações 📑
@@ -27,11 +15,10 @@ A funcionalidade de gerar um relatório de controle de acesso das pessoas estuda
   * Maven;
   * Eslint.
 </details>
-
 <details>
   <summary><strong>⌨️ Instalando Dependências ⌨️</strong></summary><br>
   
-  Execute:  `npm install`
+  Execute:  `mvn install`
 </details>
 
 <details>
@@ -47,6 +34,8 @@ A funcionalidade de gerar um relatório de controle de acesso das pessoas estuda
 ## 👥 Informações gerais 👥
 
 ### 🏠 Class SmartHouse 🏠
+
+
 
 <details>
   <summary><strong>💡 Controle da Lâmpada	💡</strong></summary><br>
@@ -89,4 +78,12 @@ A funcionalidade de gerar um relatório de controle de acesso das pessoas estuda
   1 - Criei um método chamado `calcularImc` que deverá retornar um `double` com o resultado do cálculo do IMC do residente;
   
   2 - Para fazer o cálculo, precisei descobrir o resultado da `alturaAoQuadrado`. Ou seja, multipliquei `altura` pela `altura`;
+
+<!--
+
+A funcionalidade de calcular a idade de uma pessoa estudante em dias para o departamento Pessoa Estudante.
+A funcionalidade de calcular a média das notas de uma pessoa estudante para o departamento Secretaria.
+A funcionalidade de gerar um relatório de controle de acesso das pessoas estudantes na escola para o departamento Portaria.
+
 -->
+
