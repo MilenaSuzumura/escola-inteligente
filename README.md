@@ -46,16 +46,27 @@ Escolha um departamento:
 
 </details>
 
+<br>
+
 ### 🧑‍🎓 Pessoa Estudante 🧑‍🎓
 
 <details>
-  <summary><strong>💡 Controle da Lâmpada	💡</strong></summary><br>
-  
-  1 - Criei um atributo chamado `lampada` do tipo `boolean` para classificar se a lampada está ligada ou apagada;
-  
-  2 - Para mudar o estado da lampada, utilizei dois métodos: `ligarLampada` e `desligarLampada`;
+  <summary><strong>Calcular a idade da pessoa estudante em dias</strong></summary><br>
 
-  3 - Para verificar o estado da lampada, basta chamar o método `isLampadaLigada` que retornará `true` ou `false`. 
+Para isso, o usuário deverá enviar o `nome`, idade em `anos`, `meses` e `dias`.
+
+<br>
+  <ul>
+    <li><p><strong>mensagem para nome: </strong><code>"Qual o nome da Pessoa Estudante?"</code></p></li>
+    <li><p><strong>mensagem para pedir para informar a idade: </strong><code>"Qual a sua idade em anos, meses e dias?"</code></p></li>
+    <li><p><strong>mensagem para os anos: </strong><code>"anos:"</code></p></li>
+    <li><p><strong>mensagem para os meses: </strong><code>"meses:"</code></p></li>
+    <li><p><strong>mensagem para os dias: </strong><code>""dias:""</code></p></li>
+  </ul>
+
+  <br>
+
+<strong>OBS:</strong> A contagem é feita pensando que <code>todos os anos</code> contém <code>365</code> dias e que os <code>meses</code> contém <code>30</code> dias.
 
 </details>
 
