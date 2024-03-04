@@ -9,7 +9,7 @@ public class Secretaria {
    */
   public static double calcularMedia(double nota1, double nota2, double nota3, double nota4) {
     double soma = nota1 + nota2 + nota3 + nota4;
-    return soma / 4;
+    return soma / 4.0;
   }
 
   /**
@@ -22,19 +22,20 @@ public class Secretaria {
     String nome = scanner.next();
 
     System.out.print("Avaliação 1:\n");
-    double nota1 = Double.parseDouble(scanner.next());
+    double nota1 = scanner.nextDouble();
 
     System.out.print("Avaliação 2:\n");
-    double nota2 = Double.parseDouble(scanner.next());
+    double nota2 = scanner.nextDouble();
 
     System.out.print("Avaliação 3:\n");
-    double nota3 = Double.parseDouble(scanner.next());
+    double nota3 = scanner.nextDouble();
 
     System.out.print("Avaliação 4:\n");
-    double nota4 = Double.parseDouble(scanner.next());
+    double nota4 = scanner.nextDouble();
 
     double media = calcularMedia(nota1, nota2, nota3, nota4);
 
-    System.out.println("A média das notas de " + nome + " é " + media + ".");
+    System.out.println("A média das notas de " + nome + " é " + media + "\n");
+    scanner.close();
   }
 }
