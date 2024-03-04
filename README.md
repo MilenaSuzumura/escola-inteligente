@@ -51,17 +51,18 @@ Escolha um departamento:
 ### 🧑‍🎓 Pessoa Estudante 🧑‍🎓
 
 <details>
-  <summary><strong>Calcular a idade da pessoa estudante em dias</strong></summary><br>
+  <summary><strong>Calcula a idade da pessoa estudante em dias</strong></summary><br>
 
 Para isso, o usuário deverá enviar o `nome`, idade em `anos`, `meses` e `dias`.
 
 <br>
   <ul>
-    <li><p><strong>mensagem para nome: </strong><code>"Qual o nome da Pessoa Estudante?"</code></p></li>
-    <li><p><strong>mensagem para pedir para informar a idade: </strong><code>"Qual a sua idade em anos, meses e dias?"</code></p></li>
-    <li><p><strong>mensagem para os anos: </strong><code>"anos:"</code></p></li>
-    <li><p><strong>mensagem para os meses: </strong><code>"meses:"</code></p></li>
-    <li><p><strong>mensagem para os dias: </strong><code>""dias:""</code></p></li>
+    <li><p><strong>mensagem para nome: </strong><code>Qual o nome da Pessoa Estudante?</code></p></li>
+    <li><p><strong>mensagem para pedir para informar a idade: </strong><code>Qual a sua idade em anos, meses e dias?</code></p></li>
+    <li><p><strong>mensagem para os anos: </strong><code>anos:</code></p></li>
+    <li><p><strong>mensagem para os meses: </strong><code>meses:</code></p></li>
+    <li><p><strong>mensagem para os dias: </strong><code>dias:</code></p></li>
+    <li><p><strong>mensagem final: </strong><code>A idade de Nome em dias é TotalDeDias.</code></p></li>
   </ul>
 
   <br>
@@ -70,42 +71,72 @@ Para isso, o usuário deverá enviar o `nome`, idade em `anos`, `meses` e `dias`
 
 </details>
 
-<details>
-  <summary><strong>🌐 Conexão à Internet	🌐</strong></summary><br>
-  
-  1 - Criei um método chamado `conectarInternet` que irá receber o atributo `connectionRate` do tipo `double` e deverá retornar `true`ou `false`;
-  
-  2 - Para o atributo `connectionRate` ser true, a taxa de conexão deverá ser maior que 0.5, indicando uma conexão bem-sucedida;
+<br>
 
-  3 - Caso o atributo `connectionRate` for menor ou igual a 0.5, o método deve retornar false, indicando que a conexão falhou.
+### ✍️ Secretaria ✍️
+
+<details>
+  <summary><strong>Calcula a média das notas de uma pessoa estudante</strong></summary><br>
+
+  Para isso, o usuário deverá enviar o `nome` e as notas: `nota 1`, `nota 1`, `nota 3` e `nota 4`.
+  
+<br>
+  <ul>
+    <li><p><strong>mensagem para nome: </strong><code>Qual o nome da Pessoa Estudante?</code></p></li>
+    <li><p><strong>mensagem para a nota 1: </strong><code>Avaliação 1:</code></p></li>
+    <li><p><strong>mensagem para a nota 2: </strong><code>Avaliação 2:</code></p></li>
+    <li><p><strong>mensagem para a nota 3: </strong><code>Avaliação 3:</code></p></li>
+    <li><p><strong>mensagem para a nota 4: </strong><code>Avaliação 4:</code></p></li>
+    <li><p><strong>mensagem final: </strong><code>A média das notas de Nome é Media</code></p></li>
+  </ul>
+
+  <br>
+
+<strong>OBS:</strong> A contagem é feita somando <code>todas as notas</code> todos os anos</code> e divindo por <code>4</code>
 
 </details>
+
+### 🚪 Portaria 🚪
+
+<details>
+  <summary><strong>Realiza o controle de acesso e a emissão do relatório</strong></summary><br>
+
+#### 🚪 Entrada Inicial	🚪
+```
+Entre com o número correspondente à opção desejada:
+1 - Registrar o acesso de pessoa estudante
+2 - Finalizar o acesso e emitir o relatório
+```
 
 <br>
 
-### 👤 Residente 👤
+* Se o usuário retornar o número `1`, a seguinte mensagem retornará: `Entre com a idade da pessoa estudante:`.
+  1 - Após, caso o usuário mandar um número menor que 11, a mensagem será: `Pessoa estudante do Ensino Fundamental I, catraca liberada!`.
+  2 - Caso o usuário mandar um número entre 11 à 14, a mensagem será: `Pessoa estudante do Ensino Fundamental II, catraca liberada!`.
+  3 - E caso o usuário mandar um número maior que 14, a mensagem será: `Pessoa estudante do Ensino Médio, catraca liberada!`.
+  4 - Se o usuário não mandar um número, a mensagem será: `Idade incorreta`.
 
-<details>
-  <summary><strong>🫂 Criando Residente	🫂</strong></summary><br>
+* Se o usuário retornar o número `2`, após cadastrar a entrada dos estudantes, ele mostrará as seguintes informações: `A quantidade de estudantes de cada ensino que entraram`, `a porcentagem de estudantes de cada ensino` e `a quantidade total`.
+
+<br>
+
+#### Exemplo de saída:
   
-  1 - Criei vários atributos chamados: `nome` do tipo `String`, `idade` do tipo `int`, `peso` do tipo `double` e `altura` do tipo `double`;
-  
-  2 - Criei um constructor para receber os valores do atributos e assim, poder ser acessado.
+```
+----- Quantidade -----
+Ensino Fundamental I: 40
+Ensino Fundamental II: 100
+Ensino Médio: 60
+
+----- Percentual -----
+Ensino Fundamental I: 20.0%
+Ensino Fundamental II: 50.0%
+Ensino Médio: 30.0%
+
+TOTAL: 200
+```
+
+<br>
 
 </details>
-
-<details>
-  <summary><strong>🧮 Cálculo do IMC	🧮</strong></summary><br>
-  
-  1 - Criei um método chamado `calcularImc` que deverá retornar um `double` com o resultado do cálculo do IMC do residente;
-  
-  2 - Para fazer o cálculo, precisei descobrir o resultado da `alturaAoQuadrado`. Ou seja, multipliquei `altura` pela `altura`;
-
-<!--
-
-A funcionalidade de calcular a idade de uma pessoa estudante em dias para o departamento Pessoa Estudante.
-A funcionalidade de calcular a média das notas de uma pessoa estudante para o departamento Secretaria.
-A funcionalidade de gerar um relatório de controle de acesso das pessoas estudantes na escola para o departamento Portaria.
-
--->
 
