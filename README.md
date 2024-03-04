@@ -33,9 +33,20 @@ Escola Inteligente é uma aplicação Java que interage através do terminal apr
 
 ## 👥 Informações gerais 👥
 
-### 🏠 Class SmartHouse 🏠
+<details>
+  <summary><strong>🚪 Entrada Inicial	🚪</strong></summary><br>
 
+```
+Boas vindas a Escola Inteligente!
+Escolha um departamento:
+1 - Pessoa Estudante - Calcular idade em dias
+2 - Secretaria - Calcular a média das notas
+3 - Portaria - Gerar relatório de controle de acesso
+```
 
+</details>
+
+### 🧑‍🎓 Pessoa Estudante 🧑‍🎓
 
 <details>
   <summary><strong>💡 Controle da Lâmpada	💡</strong></summary><br>
