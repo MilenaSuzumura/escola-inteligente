@@ -1,6 +1,10 @@
 # 🏫 Escola Inteligente 🧑‍🏫
 
-<!-- A Escola Inteligente é uma aplicação Java que interage através do terminal apresentando algumas funcionalidades para determinados departamentos:
+Escola Inteligente é uma aplicação Java que interage através do terminal apresentando algumas funcionalidades para determinados departamentos; com o intuito de praticar Controle de Fluxo e Entrada de dados em Java.
+
+<strong>OBS:</strong> ESSA ATIVIDADE FOI DESENVOLVIDA NA TRYBE.
+
+<!--
 
 A funcionalidade de calcular a idade de uma pessoa estudante em dias para o departamento Pessoa Estudante.
 A funcionalidade de calcular a média das notas de uma pessoa estudante para o departamento Secretaria.
@@ -8,11 +12,9 @@ A funcionalidade de gerar um relatório de controle de acesso das pessoas estuda
 
 -->
 
-<!-- # 🏡 SmartHouse and Residente 🏡
+<!--
 
-SmartHouse and Residente é um projeto focado em praticar os tipos de dados e na criação de métodos e constructor em Java.
 
-<strong>OBS:</strong> ESSE PROJETO FOI DESENVOLVIDO NA TRYBE.
 
 <br>
 
