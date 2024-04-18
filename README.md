@@ -15,11 +15,14 @@ Escola Inteligente é uma aplicação Java que interage através do terminal apr
   * Maven;
   * Eslint.
 </details>
+
 <details>
   <summary><strong>⌨️ Instalando Dependências ⌨️</strong></summary><br>
   
   Execute:  `mvn install`
 </details>
+
+<!--
 
 <details>
   <summary><strong>🛠 Executando Testes 🛠</strong></summary><br>
@@ -28,6 +31,8 @@ Escola Inteligente é uma aplicação Java que interage através do terminal apr
   
   Para executar apenas uma classe de testes: `mvn test -Dtest="TestClassName"`
 </details>
+
+-->
 
 <br>
 
